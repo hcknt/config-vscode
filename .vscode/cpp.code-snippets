@@ -1,0 +1,16 @@
+{
+  "C++ Main Function": {
+    "prefix": "cpp",
+    "body": [
+      "#include <iostream>",
+      "$1",
+      "",
+      "int main(void) {",
+      "\t$2",
+      "",
+      "\treturn 0;",
+      "}"
+    ],
+    "description": "C++ main function template"
+  }
+}
