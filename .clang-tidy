@@ -61,11 +61,11 @@ CheckOptions:
   - key: readability-identifier-naming.StaticVariableCase
     value: CamelCase
 
-  # Constants: UPPER_CASE
-  - key: readability-identifier-naming.ConstantCase
-    value: UPPER_CASE
+  # Constants: constexpr: UPPER_CASE, const local var: camelBack
   - key: readability-identifier-naming.ConstexprVariableCase
     value: UPPER_CASE
+  - key: readability-identifier-naming.ConstantCase
+    value: camelBack
 
   # Enums: e prefix + PascalCase (ePascalCase)
   - key: readability-identifier-naming.EnumPrefix
